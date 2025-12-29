@@ -1,0 +1,9 @@
+if SHIELD_CORNE_HW_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Baikal"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
