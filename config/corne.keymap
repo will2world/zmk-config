@@ -15,6 +15,7 @@
 &mmv {
     x-input-code = <INPUT_REL_X>;
     y-input-code = <INPUT_REL_Y>;
+	delay-ms = <0>;
     time-to-max-speed-ms = <150>;
     acceleration-exponent = <1>;
 };
