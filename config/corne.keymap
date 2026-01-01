@@ -20,8 +20,7 @@
 };
 
 &msc {
-    delay-ms = <10>;               /* Vial: wheel delay 10 */
-    trigger-period-ms = <80>;      /* Vial: wheel interval 80 */
+    trigger-period-ms = <60>;      /* Vial: wheel interval 80 */
     time-to-max-speed-ms = <50>;   /* Vial: scroll time to max 50 */
     acceleration-exponent = <0>;   /* 문서 기본값: 스크롤은 등속(원하면 1로) */
 };
