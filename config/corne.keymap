@@ -13,16 +13,17 @@
 #include <dt-bindings/zmk/pointing.h> // mouse pointing
 
 &mmv {
-    delay-ms = <10>;               /* Vial: movement key delay 10 */
-    trigger-period-ms = <20>;      /* Vial: interval 20 */
-    time-to-max-speed-ms = <30>;   /* Vial: time to max 30 */
-    acceleration-exponent = <1>;   /* Vial 가속 느낌에 가장 근접(일반 가속) */
+    x-input-code = <INPUT_REL_X>;
+    y-input-code = <INPUT_REL_Y>;
+    time-to-max-speed-ms = <80>;
+    acceleration-exponent = <1>;
 };
 
 &msc {
-    trigger-period-ms = <60>;      /* Vial: wheel interval 80 */
-    time-to-max-speed-ms = <50>;   /* Vial: scroll time to max 50 */
-    acceleration-exponent = <0>;   /* 문서 기본값: 스크롤은 등속(원하면 1로) */
+    x-input-code = <INPUT_REL_HWHEEL>;
+    y-input-code = <INPUT_REL_WHEEL>;
+    time-to-max-speed-ms = <120>;
+    acceleration-exponent = <1>;
 };
 
 / {
