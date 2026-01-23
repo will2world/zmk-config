@@ -18,6 +18,8 @@
 	delay-ms = <0>;
     time-to-max-speed-ms = <150>;
     acceleration-exponent = <1>;
+    trigger-period-ms = <8>;  // 추가: 125Hz (1000/8 = 125)
+
 };
 
 &msc {
@@ -26,6 +28,7 @@
 	delay-ms = <0>;
     time-to-max-speed-ms = <120>;
     acceleration-exponent = <1>;
+    trigger-period-ms = <8>;  // 추가: 125Hz (1000/8 = 125)
 };
 
 / {
