@@ -140,13 +140,13 @@
         bluetooth {
             display-name = "BLU";
             // -----------------------------------------------------------------------------------------
-            // | BCLRA|BDC1 |BDC2 |BDC3 |BDC4 |BDT5 | **  |     |     |     |     |     |      |
+            // | BCLRA|BDC1 |BDC2 |BDC3 |BDC4 |BDC5 | **  |     |     |     |     |     |      |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 | **  |     |     |     |     |     |      |
             // |      |     |     |     |     |     | **  |     |     |     |     |     |      |
             //                    |     |     |     | **  |     |     |     |
 
             bindings = <
-&bt BT_CLR_ALLl	&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4	&trans	&trans	&trans	&trans	&trans	&trans	
+&bt BT_CLR_ALL	&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4	&trans	&trans	&trans	&trans	&trans	&trans	
 &bt BT_CLR	&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &trans	&trans	&trans	&trans	&trans	&trans	
 &trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	
 			&trans	&trans	&trans	&trans	&trans	&trans	
