@@ -179,7 +179,7 @@
 
         /* Layer #7 */
         functions {
-            display-name = "FUN"i;
+            display-name = "FUN";
 
             // ---------------------------------------------
             // |   |   |   |   |   | |   | F7 | F8 | F9 | F12 |
