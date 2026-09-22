@@ -19,9 +19,20 @@
 #
 ---
 include:
+  # Corne
   - board: nice_nano_v2
     shield: corne_hw_left
+
   - board: nice_nano_v2
     shield: corne_hw_right
+
+  # Ferris Half Swept
+  - board: nice_nano_v2
+    shield: cradio_left
+
+  - board: nice_nano_v2
+    shield: cradio_right
+
+  # Reset
   - board: nice_nano_v2
     shield: settings_reset
