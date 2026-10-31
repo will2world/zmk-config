@@ -36,3 +36,7 @@ include:
   # Reset
   - board: nice_nano_v2
     shield: settings_reset
+
+  # tester
+  - board: nice_nano//zmk
+    shield: tester_pro_micro
